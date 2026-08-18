@@ -52,3 +52,17 @@ button {
 .titulo {
     margin-left: 8px;
 }
+form{
+        display: flex;
+    flex-direction: column;
+}
+#termos{
+    display: flex;
+    max-width: 50%;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+.checks{
+    display: flex;
+    flex-flow: row nowrap;
+}
